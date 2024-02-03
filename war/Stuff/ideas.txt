@@ -1,7 +1,0 @@
-- Mobile Support ✅
-- Sound effects ✅
-- Sort shop ✅
-- War animation
-- Better labour
-- Space Exploration
-- Astroid Mining
