@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/page-accelerator/0.1.1/page-accelerator.min.js">
+    </script>
+    <script>
+      var bleep = new Audio();
+      bleep.src = "https://Pixelated-War.omediscool.repl.co/war/audio/8bit-click.mp3";
+    </script>
+    <script src = "start.js">
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pixelated War
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="https://Pixelated-War.omediscool.repl.co/war/img/icon.png">
+  </head>
+  <body>
+    <!--Modal-->
+    <section id="modal">
+      <center>
+        <p id="modal-title">Title
+        </p>
+        <p id="modal-desc">Go Here --> 
+          <a href="https://victorm.ca">here
+          </a>
+        </p>
+        <div id="buttoncont">
+          <p class = "modalbutton" id="modalbuta" onclick = "modalout()">BUTTON1
+          </p>
+          <p class = "modalbutton" id="modalbutb" onclick = "modalout()">BUTTON2
+          </p>
+        </div>
+      </center>
+    </section>
+    <div id="modaloverlay">
+    </div>
+    <div id = "title">Pixilated War
+    </div>
+    <center>
+      <p id = "splash">V0.9
+      </p>
+      <a class = "noticebutton" id = "notice" onclick = 'updatem();' onmousedown="bleep.play();">Update 0.9
+      </a>
+      <a class = "button" id = "start" href="https://pixelated-war.omediscool.repl.co/war/select/" onmousedown="bleep.play();">Start
+      </a>
+      <a class = "button" id = "how" onclick = 'howm();' onmousedown="bleep.play();">How To Play
+      </a>
+      <a class = "button" id = "credits" href="https://pixelated-war.omediscool.repl.co/war/bib/" onmousedown="bleep.play();">Credits
+      </a>
+      <a class = "button" id = "changelog" href="https://Pixelated-War.omediscool.repl.co/war/changelog/index.html" onmousedown="bleep.play();">Changelog
+      </a>
+      <a class = "button" id = "how" onclick = 'noticem();' onmousedown="bleep.play();">Notice
+      </a>
+    </center>
+    <script>
+      function noticem() {
+        modals("red", "Notice", "This website uses Localstorage instead of cookies for data storage. Unlike cookies, which are stored on external servers, Localstorage saves data directly on your device's hard drive. This means your progress is only saved on the device you're using. You can choose to leave the site if you don't agree with this storage method.", "Close", false);
+      }
+      function howm() {
+        modals("blue", "How", "Press start. Choose a continent by clicking on it. Buy things in the shop and earn Stronks, money, and approval. Try Not to die from other people. Money is to buy stuff. Approval is how much your population approves of you, if its too low they will retaliate against you! Stronks is to take over other continents and beat the game. This Game Should Last About 25-30 minutes", "Close", false);
+      }
+      function updatem() {
+        modals("green", "Update", "Higher Quality Images! Look in changelog for more.", "Close", false);
+      }
+    </script>
+  </body>
+</html>

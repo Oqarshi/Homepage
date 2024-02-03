@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+    var bleep3 = new Audio();
+    bleep3.src = "8bit-click3.mp3";
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Select A Continent</title>
+    <link href="select.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="https://Pixelated-War.omediscool.repl.co/war/img/select.png"/>
+  </head>
+  <body>
+    <div id = "americas">
+      <img class = "cont" onmousedown="bleep3.play();" onclick = "select('nAmerica')" id = "north" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/nAmerica.png" alt="North America">
+      <img class = "cont" onmousedown="bleep3.play();" onclick = "select('sAmerica')" id = "south" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/sAmerica.png" alt="South America">
+    </div>
+  
+    <div id = "europeafrica">
+      <img class = "cont" onmousedown="bleep3.play();" onclick = "select('europe')" id = "europe" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/europe.png" alt="Europe">
+      <img class = "cont" onmousedown="bleep3.play();" onclick = "select('africa')" id = "africa" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/africa.png" alt="Africa">
+    </div>
+
+    <div id = "east">
+      <img class = "cont" onmousedown="bleep3.play();" onclick = "select('asia')" id = "asia" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/asia.png" alt="Asia">
+      <img class = "cont" onmousedown="bleep3.play();" id = "australia" onclick = "select('australia')" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/australia.png" alt="Australia">
+    </div>
+
+    <img class = "cont" onmousedown="bleep3.play();" id = "antarctica" onclick = "select('antarctica')" src="https://Pixelated-War.omediscool.repl.co/war/img/continent/antarctica.png" alt="Antarctica">
+    <script src="select.js"></script>
+  </body>
+</html>

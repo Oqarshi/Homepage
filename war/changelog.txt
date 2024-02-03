@@ -1,0 +1,106 @@
+Update History/Future
+--------------------------------------------------------------------------------
+Update 1
+- Game created
+--------------------------------------------------------------------------------
+Update 2:
+- Added changelog
+- Cops
+    - Price increased to 75,000
+    - Approval per minute reduced from 10% -> 2% per min
+- Added a 50% Chance for Continents to Attack You every minute.
+--------------------------------------------------------------------------------
+Update 3:
+- Conscription Letter
+    - Increased Approval Rate From -50% to -25%
+    - Increased Stronks From 0.1 Stronks to 0.2 Stronks
+    - Increased Price From 10,000 to 25,000
+- Rearranged Shop Items By Price (Lowest to Highest)
+- Added Sound Effects And A Song
+- Added "Notice" Button
+- Fixed "Economy Style" Capitalism (Now Fixed!)
+- Nerfed Cops
+    - Made 2% Acceptance Only One Time instead of stacking and every minute
+    - Price increased from 75,000 to 150,000
+- Chance from 50% to 33.33% Chance for Continents to Attack You every minute
+--------------------------------------------------------------------------------
+Update 4:
+- Nerfed tank
+    - price from 100m -> 200m
+- Nerfed fighter jet
+    - price from 150m to 300m
+- Nerfed oil rig
+    - price from 300m -> 500m
+- Nerfed submarine
+    - price from 400m -> 800m
+- Nerfed war ship
+    - price from 500m -> 1b
+- Nerfed nuke
+    - price from 5b -> 10b
+- Added so other nations can help other nations if they are attacked by you
+- Buffed "Economy style" Socialism
+    - 1 stronk per min -> 3 stronk per min
+    - 0 Approval per min -> 2 approval per min
+- Disabled "Celebration" Due to Infinite Approval Glitch
+--------------------------------------------------------------------------------
+Update 5:
+- Removed "Celebration"
+- Added Support For Mobile
+    - (Still a lot of glitches like home/shop/stats not rendering well and you need to be in landscape for the game to be playable)
+- Buffed "Mall"
+    - 0 approval (Only One Time) -> +0.2 approval (Only One Time)
+    - Updated description
+- Added "Public Transport"
+    - Price 75M
+    - 0.5 approval (Only One Time) and 30M every minute
+- Nerfed "Labor"
+    - 5 Approval -> 2 Approval
+- Buffed/Nerfed "Conscription Letter"
+    - Increased Stronks 0.2 Stronks -> 1 Stronks
+    - Increased Price 25k -> 75k
+--------------------------------------------------------------------------------
+Update 6:
+- Added Full Support For Mobile! (almost stronks and beg for donation button dont show)
+- Chance from 33.33% -> 25% Chance for Continents to Attack You every minute
+- Added Autoplay Song When Playing The Game in "Stats" Menu
+    - togglable!
+- Added economy style "Totalitarianism"
+--------------------------------------------------------------------------------
+Planned Update 7:
+--------------------------------------------------------------------------------
+New Thing Im working on! (idk when release)
+- A̶d̶d̶ ̶F̶u̶l̶l̶ ̶S̶u̶p̶p̶o̶r̶t̶ ̶F̶o̶r̶ ̶M̶o̶b̶i̶l̶e̶
+- Add Alliances (They help you in battle and don't attack you)
+- Add Tribute (Pay money so you dont get attack by others).
+--------------------------------------------------------------------------------
+Bugs Known:
+- When refreshing Continents Don't attack for 1-2 minutes
+- When refreshing You Can to labor as many times as you want
+- "Labor" interface not loading correctly.
+    - https://imgur.com/a/U7SbYJL
+    - (This may be because of changed code to support mobile)
+- Wall paper on "Home" screen glitching out when scrolling.
+    - https://imgur.com/a/4F2SmGe
+    - This only effects people that are using "Android 7.1.2 Nougat" or lower, "Windows Vista" or lower, "IOS" version 4.1 or lower, and "Mac OS X v10.6" or lower
+- "Army Bar" Not loading for anybody on mobile
+    - https://imgur.com/a/y95CxHL
+- "Stronks" and "Beg For Donation" button dont show on mobile because you cant scroll
+    - https://imgur.com/a/cDqOu8C
+- If you are attacked while raising taxes then you will be in a glitched state which you cant do anything and wont die
+- In rare occasions select menu will not load.
+    - https://imgur.com/a/Y1nKmbc
+- Sometimes buttons might not respond
+--------------------------------------------------------------------------------
+Other Games:
+- Working On New Web App Called "Talk"
+    - Added a "..." section with stuff
+- "Solar Adventure" Game Discontinued
+    - Reasons
+    - 1: don't know how to add mobile support cause the js is designed for pc
+    - 2: bad at math lol
+    - 3: cause im lazy and i don't wanna work on a game that a lot of people already made.
+    - 4: want to be original with me games
+--------------------------------------------------------------------------------
+Unbalances Known:
+game too hard
+
